@@ -1,0 +1,368 @@
+@font-face {
+    font-family: 'biko_black';
+    src: url(../styles/fonts/Biko_Black.otf);
+}
+
+@font-face {
+    font-family: 'biko_bold';
+    src: url(../styles/fonts/Biko_Bold.otf);
+}
+
+@font-face {
+    font-family: 'biko_regular';
+    src: url(../styles/fonts/Biko_Regular.otf);
+}
+
+
+/* ======================= Header ===================== */
+
+.bckcolor {
+    background-color: #0864B1;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'biko_bold';
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding: 71px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    flex: wrap;
+}
+
+.ul-li {
+    color: white;
+    font-family: 'biko_regular';
+    font-size: 30px;
+    margin-right: 110px;
+    transition: 0.5s;
+}
+
+.ul-li a {
+    color: white;
+}
+
+.ul-li:hover {
+    transform:scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+/* ========================== main ======================= */
+
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.article {
+    width: 50%;
+    height: auto;
+}
+
+.title  {
+    font-size: 100px;
+    font-family: 'biko_black';
+    color: white;
+    line-height: 100px;
+}
+
+.maincontent {
+    font-size: 35px;
+    font-family: 'biko_regular';
+    color: white;
+}
+
+
+.about {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.aboutcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abut {
+    font-size: 50px;
+    font-family: 'biko_black';
+    color: #0864B1;
+    border-bottom: 4px solid #676767;
+    margin-bottom:20px;
+}
+
+.txt {
+    font-size: 35px;
+    font-family: 'biko_regular';
+    color: #676767;
+    width: 1150px;  
+    line-height: 45px;
+}
+
+.features {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.Features {
+    font-size: 50px;
+    font-family: 'biko_black';
+    color: #0864B1;
+    border-bottom: 4px solid #676767;
+}
+
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex: wrap;
+    margin-bottom: 230px;
+}
+
+.box {
+    width: 500px;
+    height: auto;
+    background: #0864B1;
+    margin-right: 30px;
+    padding: 30px;
+    transition: 1s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    transform: translate(0px, -20px);
+    cursor: pointer;
+}
+
+.box-element {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.txtcontent {
+    font-size: 35px;
+    font-family: biko_regular;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.bck {
+    width: 100%;
+    height: auto;
+    background: #0864B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join {
+    font-size: 75px;
+    font-family: 'biko_bold';
+    color: white;
+    margin-top: 50px;
+}
+
+.bck input::placeholder {
+    font-size: 20px;
+    font-family: 'biko_regular';
+}
+
+.email {
+    width: 33%;
+    padding: 50px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.border {
+    font-size: 35px;
+    font-family: 'biko_bold';
+    color: white;
+    padding: 20px;
+    border: 5px solid white;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    transition: 0.7s;
+}
+
+
+.border:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px; 
+    flex-direction: column;
+}
+
+.cont {
+    font-size: 50px;
+    font-family: 'biko_black';
+    color: #0864B1;
+    border-bottom: 4px solid #676767;
+}
+
+.info {
+    width: 45%;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px#0864B1;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    outline: none;
+}
+
+.contact input::placeholder{
+    color: #0864B1;
+    font-size: 20px;
+    font-family: 'biko_bold';
+}
+
+.textarea {
+    padding: 10px 10px 100px 10px;   
+    width: 45%;
+    margin-top: 25px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #0864B1;
+    resize: none;
+}
+
+.textarea::placeholder {
+    color: #0864B1;
+    font-size: 20px;
+    font-family: 'biko_bold';
+}
+
+button {
+    background-color: #0864B1;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'biko_bold';
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 4px 8px  #001653;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: white;
+    transition: 1s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* ======================= Footer ====================== */
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #0864B1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.copyright {
+    font-family: 'biko_bold';
+    font-size: 25px;
+    color: white;
+}
+
+.iconholder {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.back {
+    background : white;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 10px;     
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.back:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.back img {
+    padding-left: 18px;
+}
+
+.copyright .iconholder {
+    margin-top: 60px;
+}
+
